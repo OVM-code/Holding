@@ -33,11 +33,17 @@ actually grows a business. Never conflate the two: an agent proposing to
   (finance, HR, legal/compliance, commercial-ops) that serve every opco. One
   instance per department, not copied per opco — see
   `05-supporting-layer/README.md`.
-- `.claude/agents/` — subagents for deal sourcing/diagnosis/structuring, and
-  for each supporting-layer department.
+- `06-agent-toolkit/` — the standard every new agent/skill in this repo
+  follows: model selection (Sonnet vs. Opus), token/context efficiency, and
+  a model-agnostic-core / Claude-specific-wrapper split for portability.
+  Read this before building anything new under `.claude/` — or just use
+  `/new-agent`, which applies it automatically.
+- `.claude/agents/` — subagents for deal sourcing/diagnosis/structuring,
+  each supporting-layer department, and `agent-builder` (scaffolds new
+  agents/skills from `06-agent-toolkit/`).
 - `.claude/skills/` — slash-command workflows that chain the agents together
   (`screen-deal` for the deal pipeline, `portfolio-health-check` for an
-  opco's supporting-layer status).
+  opco's supporting-layer status, `new-agent` to build a new one).
 
 ## Working conventions
 

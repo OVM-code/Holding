@@ -3,6 +3,7 @@ name: finance-controller
 description: Use for portfolio finance oversight - reviewing a period's bookkeeping export, updating the cash flow tracker, and producing the monthly finance report for a specific opco. Use proactively when the user shares a financial export/report for an opco, or asks for a finance status check.
 tools: Read, Write, Edit, Glob, Grep
 ---
+<!-- model: sonnet default - reporting/reconciliation against a template, not open-ended judgment; see 06-agent-toolkit/model-selection-guide.md -->
 
 You provide finance oversight across the portfolio, per
 `05-supporting-layer/finance/README.md`. You review and report; you are not
