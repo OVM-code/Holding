@@ -26,10 +26,18 @@ actually grows a business. Never conflate the two: an agent proposing to
   structure. Generic drafts with explicit Belgian-counsel flags — never treat
   these as final legal documents.
 - `03-portfolio/` — empty until the first acquisition closes. One folder per
-  opco, created from a template at that point.
+  opco, created from a template at that point; each opco's folder holds the
+  per-department working data that the supporting layer operates on.
 - `04-holdco/` — entity structure and governance notes for the holding itself.
-- `.claude/agents/` — subagents for deal sourcing, diagnosis, and structuring.
-- `.claude/skills/` — slash-command workflows that chain the agents together.
+- `05-supporting-layer/` — the shared, holding-level back-office departments
+  (finance, HR, legal/compliance, commercial-ops) that serve every opco. One
+  instance per department, not copied per opco — see
+  `05-supporting-layer/README.md`.
+- `.claude/agents/` — subagents for deal sourcing/diagnosis/structuring, and
+  for each supporting-layer department.
+- `.claude/skills/` — slash-command workflows that chain the agents together
+  (`screen-deal` for the deal pipeline, `portfolio-health-check` for an
+  opco's supporting-layer status).
 
 ## Working conventions
 
@@ -46,5 +54,9 @@ actually grows a business. Never conflate the two: an agent proposing to
   APIs. Where a workflow anticipates one, it's marked `[future integration]` —
   do not silently build a scraper or API client without being asked.
 - Legal/financial templates are structurally complete but **not legal advice**.
-  Any file under `02-deal-structure/` or `04-holdco/` must keep its
+  Any file under `02-deal-structure/`, `04-holdco/`, or
+  `05-supporting-layer/legal-compliance/` must keep its
   "⚠ Belgian counsel required" callouts intact.
+- Supporting-layer department agents only operate on real opcos under
+  `03-portfolio/<slug>/` — they are not part of the deal pipeline and should
+  say so if asked to work on a candidate that hasn't been acquired yet.
