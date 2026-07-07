@@ -45,6 +45,24 @@ actually grows a business. Never conflate the two: an agent proposing to
   (`screen-deal` for the deal pipeline, `portfolio-health-check` for an
   opco's supporting-layer status, `new-agent` to build a new one).
 
+## Verification — run before every commit
+
+```
+node check.mjs
+```
+
+Zero dependencies, Node 18+. It mechanically enforces the conventions below:
+pipeline.csv integrity (header, unique kebab slugs, valid stages/verdicts/consent
+values, dates), candidate-file ↔ pipeline-row consistency in both directions,
+stage/file consistency (screening/diagnosis files, portfolio folder on `acquired`),
+"Belgian counsel" callout preservation, load-bearing `_template` files, and
+agent/skill conformance to the `06-agent-toolkit` standard (frontmatter names match
+files, descriptions present, model note, minimal tools list). CI runs it on every
+push and PR. If you change a convention deliberately, change `check.mjs` in the same
+commit — the validator is the mechanical form of this document, and they must not
+drift apart. If you change the pipeline.csv columns, also update `01-deals/README.md`
+and every agent that reads the csv.
+
 ## Working conventions
 
 - Deal data is Markdown/YAML/CSV, not a database or app — keep it that way

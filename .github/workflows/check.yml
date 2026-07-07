@@ -1,0 +1,22 @@
+name: Validate conventions
+
+# Enforces CLAUDE.md's working conventions mechanically: pipeline.csv
+# integrity (source of truth for deal stage), candidate file consistency,
+# legal-callout preservation, and agent/skill conformance to 06-agent-toolkit.
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node check.mjs
