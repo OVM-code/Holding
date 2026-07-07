@@ -1,0 +1,45 @@
+# Active modules — per-opco configuration
+#
+# Copy this file to 03-portfolio/<slug>/active-modules.yaml when an opco is
+# created, then set each module true/false based on what this specific
+# business actually needs. Department agents check this file before running
+# a module — a module set to false is skipped, not run and discarded, which
+# is what keeps this cost-efficient across a portfolio of different-shaped
+# businesses (a single-location service business doesn't need the same
+# modules as a multi-site manufacturer).
+#
+# A department with every module set to false is effectively off for this
+# opco. There is no separate "department enabled" flag — it's implied by
+# whether any of its modules are on.
+
+finance:
+  bookkeeping-oversight: true   # recommended default — low cost, high value for any opco
+  fpa-forecasting: false        # turn on once there's enough history to forecast against
+  cash-treasury: true           # recommended default — cash visibility matters from day one
+  tax-compliance-coordination: false  # turn on once the opco's accountant relationship is set
+
+hr:
+  # HR is not yet split into modules — see 05-supporting-layer/hr/README.md.
+  enabled: true
+
+legal-compliance:
+  compliance-calendar: true     # recommended default — missed filings are pure downside
+  contract-review: true         # recommended default — cheap first-pass, real risk reduction
+  corporate-housekeeping: false # turn on once multi-entity structure needs active tracking
+  ip-brand-protection: false    # turn on if the opco has real trademark/IP exposure
+
+marketing:
+  content-brand-calendar: false
+  digital-presence-audit: false
+  campaign-performance-tracking: false
+
+sales:
+  pipeline-crm-hygiene: false
+  quote-proposal-drafting: false
+  sales-forecasting-reporting: false
+
+operations:
+  process-documentation: false
+  vendor-supplier-management: false
+  quality-incident-tracking: false
+  capacity-scheduling-support: false

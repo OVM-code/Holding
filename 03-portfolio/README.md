@@ -12,17 +12,24 @@ Empty until the first acquisition closes (pipeline stage `acquired` in
      `03-portfolio/<slug>/diagnosis-history.md`.
 3. Scaffold inside the new folder:
    - `overview.md` — what the business is, org chart, key people.
+   - `active-modules.yaml` — copy from
+     `05-supporting-layer/active-modules-template.yaml` and set each module
+     true/false based on what *this* business actually needs. Do this
+     deliberately, with the founder — it's the main lever for keeping the
+     supporting layer's cost matched to the opco's actual complexity rather
+     than running every module everywhere.
    - `reporting/` — recurring consolidated status updates, e.g. from
      `/portfolio-health-check` (cadence TBD per `04-holdco/governance.md`).
    - `growth-plan.md` — the human-led operating priorities coming out of the
      diagnosis (what made it `operator-gap` or `cost-structure`, and what the
      plan is to fix it).
-   - `finance/`, `hr/`, `legal/`, `commercial-ops/` — per-department working
-     data that the supporting-layer agents read and write. These start empty;
-     each department agent creates its own files from the templates under
-     `05-supporting-layer/<department>/templates/` the first time it's used
-     for this opco. See `05-supporting-layer/README.md` for how the shared
-     department agents plug in here.
+   - `finance/`, `hr/`, `legal/`, `marketing/`, `sales/`, `operations/` —
+     per-department working data that the supporting-layer agents read and
+     write. These start empty; each department agent creates its own files
+     from the templates under `05-supporting-layer/<department>/templates/`
+     the first time an active module is used for this opco. See
+     `05-supporting-layer/README.md` for how the shared department agents
+     plug in here.
 4. Update `pipeline.csv` row to stage `acquired`.
 
 No opco folders exist yet — this file is the placeholder and the checklist

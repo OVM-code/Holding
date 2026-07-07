@@ -1,5 +1,11 @@
 # HR & people ops
 
+Not yet split into toggleable modules like the other five departments — HR
+tasks here are few enough and low-cost enough that one `enabled: true/false`
+switch in `03-portfolio/<slug>/active-modules.yaml` is sufficient for now.
+Split into modules (e.g. onboarding, policy, hiring-support) if the workload
+ever grows enough to warrant independent toggling.
+
 ## Scope
 
 This department exists in direct service of the "good jobs" part of the
@@ -24,6 +30,17 @@ does not automate them.
 - Does not touch personal/sensitive employee data beyond what's needed for
   the specific task at hand — treat GDPR obligations as a hard constraint,
   not a nice-to-have.
+
+## Where humans add value
+
+- **Every hiring, firing, and compensation decision** — no exceptions.
+  This department drafts and organizes, full stop.
+- **The actual relationship with each employee** — a 30-year HR practice's
+  real value is judgment about a specific person in a specific situation;
+  this department provides consistent process, not that judgment.
+- **Culture.** Good jobs, per `00-thesis/operating-model.md`, are made by
+  how people are actually treated day to day — not something a checklist
+  produces.
 
 ## Cadence
 

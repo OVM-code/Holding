@@ -1,41 +1,45 @@
 # Legal & compliance
 
-## Scope
+Modular. Turn on only what a given opco needs via
+`03-portfolio/<slug>/active-modules.yaml`. One `legal-compliance` agent runs
+whichever modules are active.
 
-- Compliance calendar: tracking recurring statutory obligations per opco
-  (annual accounts filing, UBO register updates, VAT filings, insurance
-  renewals) so nothing lapses silently.
-- Contract review support: a first-pass read of contracts (supplier,
-  customer, lease) flagging unusual terms or risk — not a substitute for a
-  lawyer's sign-off on anything material.
-- Corporate housekeeping: tracking board minutes, shareholder decisions,
-  and other formalities the holding needs to keep straight across multiple
-  entities.
+## Modules
 
-## What this is not
+| Module | Covers | Recommended default |
+|---|---|---|
+| `modules/compliance-calendar.md` | Statutory deadline tracking | On |
+| `modules/contract-review.md` | First-pass contract flagging | On |
+| `modules/corporate-housekeeping.md` | Board minutes, shareholder decisions, entity records | Off until multi-entity complexity exists |
+| `modules/ip-brand-protection.md` | Trademark/IP tracking | Off unless the opco has real IP/brand exposure |
 
-- Not legal advice. Every ⚠ flag in `02-deal-structure/` and here means the
+## What this department is not
+
+- Not legal advice. Every ⚠ flag here and in `02-deal-structure/` means the
   same thing: get an actual Belgian lawyer/notary before relying on this.
 - Not a compliance guarantee — this is a tracking and drafting aid; the
   founder remains responsible for actually meeting obligations.
 
-## Cadence
+## Where humans add value
 
-- Ongoing: compliance calendar maintained per opco
-  (`templates/compliance-calendar-template.csv`), reviewed monthly for
-  anything due in the next 60 days.
-- On demand: contract review checklist whenever a new contract needs a
-  first pass before deeper legal review.
+- **Every actual legal judgment** — is this contract term acceptable, does
+  this situation carry real liability, is this filing correct — goes to a
+  human, and for anything material, to actual Belgian counsel. This
+  department's ceiling is "flag it well," never "decide it."
+- **The relationships** — with counsel, with a notary, with regulators —
+  stay human. A 30-year general counsel's real value is judgment built from
+  pattern recognition across many deals and a network to call on; this
+  department provides the pattern-recognition-adjacent first pass, not the
+  relationship or the accountability.
+- **Anything with money, liability, or a signature on the line.**
 
 ## Data flow (manual handoff today)
 
 1. Statutory deadlines and known obligations entered into the compliance
-   calendar as each opco's specifics become known (this can't be
-   pre-populated generically — filing deadlines depend on entity type,
-   fiscal year-end, sector-specific licenses, etc.).
+   calendar as each opco's specifics become known.
 2. Contracts to review are provided directly (PDF/text) for a first pass.
-3. `legal-compliance` agent flags what's due soon or what looks unusual in
-   a contract; a human (ideally with actual counsel) makes the call.
+3. `legal-compliance` runs whichever modules are active against the
+   provided data.
 
 ## Future integration points
 

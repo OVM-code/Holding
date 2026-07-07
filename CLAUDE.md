@@ -30,9 +30,11 @@ actually grows a business. Never conflate the two: an agent proposing to
   per-department working data that the supporting layer operates on.
 - `04-holdco/` — entity structure and governance notes for the holding itself.
 - `05-supporting-layer/` — the shared, holding-level back-office departments
-  (finance, HR, legal/compliance, commercial-ops) that serve every opco. One
-  instance per department, not copied per opco — see
-  `05-supporting-layer/README.md`.
+  (Finance, HR, Legal & compliance, Marketing, Sales, Operations) that serve
+  every opco. One instance per department, not copied per opco. Each
+  department is modular — see `05-supporting-layer/README.md` and
+  `active-modules-template.yaml`; an opco only runs the modules it actually
+  needs, toggled per opco in `03-portfolio/<slug>/active-modules.yaml`.
 - `06-agent-toolkit/` — the standard every new agent/skill in this repo
   follows: model selection (Sonnet vs. Opus), token/context efficiency, and
   a model-agnostic-core / Claude-specific-wrapper split for portability.
@@ -66,3 +68,10 @@ actually grows a business. Never conflate the two: an agent proposing to
 - Supporting-layer department agents only operate on real opcos under
   `03-portfolio/<slug>/` — they are not part of the deal pipeline and should
   say so if asked to work on a candidate that hasn't been acquired yet.
+- Every supporting-layer department (Finance, HR, Legal, Marketing, Sales,
+  Operations) is agentic overhead only — administration, drafting,
+  tracking, flagging. None of them sell, market, operate, or decide on the
+  opco's behalf; each department's README has a "Where humans add value"
+  section that is not optional reading. An agent proposing to cross that
+  line (e.g. sending something to a customer, executing an operational
+  change) is out of scope by design, per the operating model above.
