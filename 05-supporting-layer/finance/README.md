@@ -15,6 +15,10 @@ separate agents, so there's one agent to know and N capabilities to enable.
 | `modules/cash-treasury.md` | Cash position, runway, 13-week cash flow | On |
 | `modules/tax-compliance-coordination.md` | Tax deadline tracking, accountant liaison prep | Off until accountant relationship is set |
 
+`expert-questions.md` holds the questions a veteran controller asks that
+templates don't force — the agent raises them when triggered; the founder
+uses them in accountant meetings.
+
 ## What this department is not
 
 - Not a replacement for a certified Belgian accountant (`boekhouder` /

@@ -29,7 +29,11 @@ the opcos.
   playbook states the specific things an experienced practitioner in that
   function actually watches for (e.g. finance: uninvoiced work and stale
   receivables as the real hygiene risks; sales: time-in-stage over
-  raw pipeline value) — not just a generic template to fill in.
+  raw pipeline value) — not just a generic template to fill in. Each
+  department also has an `expert-questions.md`: the questions a 30-year
+  practitioner asks. Agents raise the relevant question when its trigger
+  appears in the data; questions only answerable by a human (in a meeting,
+  on a site visit) get flagged as the founder's agenda, not guessed at.
 - **Manual handoff now, integration-ready later.** No department here calls
   a live accounting/payroll/CRM API yet. Each department's README documents
   where a future integration would plug in. Data comes from files a human

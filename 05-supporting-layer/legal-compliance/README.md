@@ -13,6 +13,10 @@ whichever modules are active.
 | `modules/corporate-housekeeping.md` | Board minutes, shareholder decisions, entity records | Off until multi-entity complexity exists |
 | `modules/ip-brand-protection.md` | Trademark/IP tracking | Off unless the opco has real IP/brand exposure |
 
+`expert-questions.md` holds the questions a veteran general counsel asks
+before anything is signed — the agent raises them when triggered; the
+answers usually go to actual Belgian counsel.
+
 ## What this department is not
 
 - Not legal advice. Every ⚠ flag here and in `02-deal-structure/` means the

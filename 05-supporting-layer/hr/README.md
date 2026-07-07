@@ -6,6 +6,10 @@ switch in `03-portfolio/<slug>/active-modules.yaml` is sufficient for now.
 Split into modules (e.g. onboarding, policy, hiring-support) if the workload
 ever grows enough to warrant independent toggling.
 
+`expert-questions.md` holds the questions a veteran HR practitioner asks —
+mostly questions for the *founder* to ask, since HR is the least delegable
+department in this layer.
+
 ## Scope
 
 This department exists in direct service of the "good jobs" part of the

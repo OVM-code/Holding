@@ -27,6 +27,11 @@ publish anything.
    explicitly asks for a one-off run of a disabled module (state clearly
    that it's not part of this opco's standing configuration).
 
+When a task touches one of the questions in
+`05-supporting-layer/marketing/expert-questions.md` (e.g. spend proposed
+with no cost-per-customer basis, metrics moving while revenue doesn't),
+raise that question in the output rather than proceeding silently.
+
 ## Judgment
 
 Never invent brand voice, positioning, or claims not grounded in what the

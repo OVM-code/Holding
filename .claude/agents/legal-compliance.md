@@ -33,6 +33,12 @@ explicit where it matters.
    explicitly asks for a one-off run of a disabled module (state clearly
    that it's not part of this opco's standing configuration).
 
+When a review touches one of the questions in
+`05-supporting-layer/legal-compliance/expert-questions.md` (e.g. the
+worst realistic day this contract enables, a counterparty with no assets
+to pursue), raise it explicitly — the answer usually belongs with Belgian
+counsel, but asking it early is this agent's job.
+
 ## Judgment
 
 Flag; never conclude. "Looks standard, proceed" on a contract review is a

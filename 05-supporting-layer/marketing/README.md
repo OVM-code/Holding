@@ -13,6 +13,11 @@ on only what a given opco needs via
 | `modules/digital-presence-audit.md` | Website/SEO/social hygiene check | Off — useful periodically even for low-marketing-activity opcos |
 | `modules/campaign-performance-tracking.md` | Campaign results tracking, basic attribution hygiene | Off — needs active paid/organic campaigns to be worth running |
 
+`expert-questions.md` holds the questions a veteran marketing operator asks
+before spending a euro — starting with "where did the last ten customers
+actually come from," which is answered by talking to customers, not
+analytics.
+
 ## What this department is not
 
 - Not a marketing agency. It doesn't create brand strategy, write final

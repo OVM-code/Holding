@@ -27,6 +27,12 @@ human-led operating work.
    explicitly asks for a one-off run of a disabled module (state clearly
    that it's not part of this opco's standing configuration).
 
+When a hygiene check or forecast touches one of the questions in
+`05-supporting-layer/sales/expert-questions.md` (e.g. a deal "closing next
+month" for three months, deals dying at the same stage), raise that
+question in the output — it's the difference between reporting numbers and
+reporting truth.
+
 ## Judgment
 
 Never invent deal values, customer details, or pricing not provided by the

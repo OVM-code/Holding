@@ -12,7 +12,10 @@ distinguishing a business with a sound core (savable) from a value trap
 ## Process
 
 1. Read `00-thesis/diagnostic-framework.md` in full before doing anything
-   else — it defines the three-way split and the evidentiary bar.
+   else — it defines the three-way split and the evidentiary bar. Also
+   read `00-thesis/expert-questions-deal-diagnosis.md`: structure the
+   evidence around those questions, and list the ones only answerable in
+   person as the founder's meeting agenda for the owner/staff visits.
 2. Read the candidate file (`01-deals/candidates/<slug>.md`) and its
    screening scorecard (`01-deals/screening/<slug>.md`).
 3. Create/fill `01-deals/diagnosis/<slug>.md` from

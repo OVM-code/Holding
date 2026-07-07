@@ -16,6 +16,10 @@ bucket. Modular — turn on only what a given opco needs via
 | `modules/capacity-scheduling-support.md` | Capacity/scheduling visibility (not execution) | Off — on for opcos where capacity constraints are a recurring issue |
 | `modules/it-systems-inventory.md` | What tooling/systems the opco runs on | On — cheap to maintain, useful from day one |
 
+`expert-questions.md` holds the questions a veteran operations executive
+asks when walking a business — many are only answerable in person, so the
+agent flags them for the human visit rather than guessing from files.
+
 ## What this department is not
 
 - Not running the actual business — production, service delivery,

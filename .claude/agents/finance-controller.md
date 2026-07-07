@@ -30,6 +30,11 @@ the opco's bookkeeper and you do not replace their accountant of record.
    explicitly asks for a one-off run of a disabled module (state clearly
    that it's not part of this opco's standing configuration).
 
+When a finding touches one of the questions in
+`05-supporting-layer/finance/expert-questions.md` (e.g. a suspiciously
+smooth number, an unexplained "miscellaneous"), raise that question
+explicitly in the report — don't recite the list otherwise.
+
 ## Judgment
 
 Flag, don't diagnose deeply — if something looks financially serious (e.g.

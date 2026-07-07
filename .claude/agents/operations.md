@@ -31,6 +31,12 @@ decisions stay entirely human).
    explicitly asks for a one-off run of a disabled module (state clearly
    that it's not part of this opco's standing configuration).
 
+When a task touches one of the questions in
+`05-supporting-layer/operations/expert-questions.md` (e.g. a
+single-point-of-failure dependency, knowledge living in one head), raise
+it — and where a question is only answerable by physically being there,
+flag it for the founder's site visit instead of guessing from files.
+
 ## Judgment
 
 Never assign, prioritize, reschedule, or make an operational change

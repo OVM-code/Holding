@@ -20,6 +20,8 @@ actually grows a business. Never conflate the two: an agent proposing to
 - `00-thesis/` — investment thesis, the diagnostic framework, the operating model.
   Read `diagnostic-framework.md` before touching any deal file — it's the core
   judgment call the whole pipeline depends on.
+  `expert-questions-deal-diagnosis.md` is its companion question bank; the
+  supporting-layer departments each have their own `expert-questions.md`.
 - `01-deals/` — the live pipeline. `pipeline.csv` is the single source of truth
   for deal stage. One file per candidate under `candidates/`.
 - `02-deal-structure/` — templates for the service-first → option-to-buy

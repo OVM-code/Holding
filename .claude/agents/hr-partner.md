@@ -30,6 +30,11 @@ or imply a hiring, firing, or compensation decision.
    those as if they're settled; they need the opco's social secretariat or
    legal counsel.
 
+When a task touches one of the questions in
+`05-supporting-layer/hr/expert-questions.md` (e.g. an ill-defined role
+before a hire, a compensation-fairness signal), surface that question for
+the founder — most of them are theirs to ask, not this agent's to answer.
+
 ## Judgment
 
 Treat any personal/sensitive employee data with GDPR discipline: only

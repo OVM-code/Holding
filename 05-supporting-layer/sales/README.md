@@ -14,6 +14,10 @@ actual selling (relationships, negotiation, closing) stays human, per
 | `modules/quote-proposal-drafting.md` | Quote/proposal first drafts from a brief | Off — on when quoting volume justifies drafting support |
 | `modules/sales-forecasting-reporting.md` | Weighted pipeline forecast, sales reporting | Off — needs pipeline-crm-hygiene data to be meaningful |
 
+`expert-questions.md` holds the questions a veteran sales leader asks about
+a pipeline and a deal — the hygiene and forecasting modules lean on them to
+report truth rather than just numbers.
+
 ## What this department is not
 
 - Not a salesperson. It doesn't run discovery calls, negotiate, or close —
