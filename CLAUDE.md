@@ -37,6 +37,12 @@ actually grows a business. Never conflate the two: an agent proposing to
   department is modular — see `05-supporting-layer/README.md` and
   `active-modules-template.yaml`; an opco only runs the modules it actually
   needs, toggled per opco in `03-portfolio/<slug>/active-modules.yaml`.
+- `07-advisory/` — the advisory board system: modeled advisors (real
+  people, alive or dead, grounded in their documented thinking),
+  `roster.csv` as the registry, logged board sessions with preserved
+  dissent. `/make-advisor` appoints; `/convene-board` runs the full loop
+  (seats → gap suggestions → blind takes → contrarian → chair synthesis).
+  Advisors think about decisions; they never execute anything.
 - `06-agent-toolkit/` — the standard every new agent/skill in this repo
   follows: model selection (Sonnet vs. Opus), token/context efficiency, and
   a model-agnostic-core / Claude-specific-wrapper split for portability.
