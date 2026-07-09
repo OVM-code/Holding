@@ -6,10 +6,20 @@ advice that preserves every relevant advisor's input, including dissent.
 
 ## What an "advisor" is here
 
-A structured model of a real person's *documented* thinking: their
-expertise, frameworks, known positions (with sources), and a
-person-specific research workflow describing how *they* would investigate
-a question. It is explicitly not the person:
+Either a **person** or a **book**:
+
+- A person-advisor is a structured model of a real person's *documented*
+  thinking: expertise, frameworks, known positions (with sources), and a
+  person-specific research workflow describing how *they* would
+  investigate a question (`advisors/_template.md`).
+- A book-advisor is a model of a text itself — its frameworks and
+  procedures with chapter references (`advisors/_template-book.md`). The
+  book, not its author, holds the seat: the author's later or broader
+  views are out of scope unless separately appointed. Books are often the
+  *better* seat when the value is a method (a playbook, a negotiation
+  system) rather than a judgment style.
+
+A person-advisor is explicitly not the person:
 
 - **Grounding rule:** positions trace to what the person actually
   said/wrote wherever possible, cited. Anything extrapolated to a new
@@ -29,7 +39,7 @@ a question. It is explicitly not the person:
 | Piece | What it does |
 |---|---|
 | `roster.csv` | Registry of all advisors — the dedup check lives here |
-| `advisors/<slug>.md` | One persona file per advisor (from `advisors/_template.md`) |
+| `advisors/<slug>.md` | One file per advisor — person (`_template.md`) or book (`_template-book.md`) |
 | `sessions/<date>-<topic>.md` | Log of each board session, incl. dissent and (later) your actual decision |
 | `/make-advisor` | Researches a person and appoints them (via `advisor-maker` agent) |
 | `/convene-board` | The full loop: seat selection → roster-gap suggestions → independent takes → contrarian attack → chair synthesis → session log |

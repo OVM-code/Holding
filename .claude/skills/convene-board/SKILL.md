@@ -23,8 +23,10 @@ an interrogation.
    question — max 5. Relevance beats seniority: an empty seat is better
    than a padding seat.
 
-2. **Roster-gap check.** Ask: who are the obvious minds on this specific
-   question — alive or dead — and are they on the roster? (Quick
+2. **Roster-gap check.** Ask: who are the obvious minds — alive or dead —
+   *and which books* are the obvious playbooks on this specific question,
+   and are they on the roster? (Suggest a book over its author when the
+   value is the method rather than the person's judgment.) (Quick
    WebSearch only if the domain is outside what the roster covers.) For
    each missing person worth having: name them, one line on why, and
    offer `/make-advisor`. **Do not auto-appoint.** If the user appoints

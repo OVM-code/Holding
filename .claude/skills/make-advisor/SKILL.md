@@ -1,6 +1,6 @@
 ---
 name: make-advisor
-description: Research any real person (alive or dead) and appoint them as a modeled advisor in the advisory board system, or refresh an existing stale advisor. Use when the user names a person they want on their advisory roster.
+description: Research any real person (alive or dead) or any book and appoint it as a modeled advisor in the advisory board system, or refresh an existing stale advisor. Use when the user names a person or book they want on their advisory roster.
 ---
 
 # /make-advisor
@@ -9,10 +9,10 @@ Thin entry point over the `advisor-maker` agent.
 
 ## Input
 
-`$ARGUMENTS` is the person's name, plus optionally: why the user wants
-them (which domains/decisions), any context the user can supply that the
-public record won't have, or `--refresh` to re-research an existing
-advisor.
+`$ARGUMENTS` is a person's name or a book title (add the author if the
+title is ambiguous), plus optionally: why the user wants them (which
+domains/decisions), any context the user can supply that the public
+record won't have, or `--refresh` to re-research an existing advisor.
 
 ## Steps
 
