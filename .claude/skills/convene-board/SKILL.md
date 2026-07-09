@@ -54,10 +54,12 @@ an interrogation.
 
 6. **Chair synthesis.** Invoke `board-chair` on the session file.
 
-7. **Deliver.** Relay the chair's synthesis: recommendation, majority
-   view, named dissents, what the founder alone must decide. Remind the
-   user the session log has a `founder-decision` section to fill in once
-   they've decided — that's how the roster earns a track record.
+7. **Deliver.** Relay the chair's **Founder brief** (the plain-language
+   layer), not the dense synthesis — the synthesis stays in the session
+   file as the audit trail for anyone who wants the full reasoning.
+   Remind the user the session log has a `founder-decision` section to
+   fill in once they've decided — that's how the roster earns a track
+   record.
 
 ## Rules
 

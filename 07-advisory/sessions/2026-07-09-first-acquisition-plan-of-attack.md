@@ -188,6 +188,126 @@ The five positions disagree on tactics and agree on architecture, and the archit
 
 **What survives the attack:** pay only for demonstrated past earnings; operator-gap-only, no turnarounds; small, unlevered, direct-from-founder; test seller commitment early. Those hold regardless of structure. The falsifiable fix the board should demand: before any more process, ten real owner conversations in 90 days. If two won't discuss the structure seriously, the thesis — not the founder's preparation — is the problem.
 
+## Founder brief (plain language)
+
+*(Added retroactively when the two-layer format was introduced; same
+content as the synthesis below, written plainly and with examples.)*
+
+### The short version
+
+The board agrees on the buying rules but splits on your business model.
+All five advisors back the same core: only pay for what a business has
+already proven it earns, only buy businesses that are healthy but
+under-managed, and write your rules down before you start looking. But
+the board could not agree on whether your "work for the owner first, buy
+later" structure is your greatest strength or a trap that attracts
+exactly the wrong sellers — and nobody knows, because it's never been
+tried in Belgium. So the recommendation is: stop preparing, and go test
+it. Talk to ten real owners in the next 90 days. Their reaction — not
+more planning — answers the question everything else depends on.
+
+### What everyone agrees on
+
+Five very different thinkers — a value investor, two how-to-buy
+playbooks, a negotiation manual, and a man who bought hundreds of small
+companies — independently landed on the same five rules:
+
+1. **Pay for the past, not the future.** Value the business on what it
+   has *already* been earning for years, checked by you personally —
+   never on what the owner promises it could earn, and never on what
+   *you* think you'll improve. Example: if a cleaning company made
+   €200k/year for the last five years, that's what you price. The
+   improvements you'll make are your profit, not the seller's sale price.
+2. **Only buy "healthy but neglected."** The business must be sound
+   today — loyal customers still buying, money still coming in — just
+   tired because the owner has mentally checked out. Walk away from
+   anything that needs *saving*. A business that's losing customers
+   because the world moved on can't be fixed by good management, and
+   "underperforming" is often just a kinder word for "dying."
+3. **Small, no debt mountain, straight from the owner.** Buy at a size
+   you can afford without dangerous borrowing, and find owners directly
+   rather than bidding against professional buyers. Someone who plans to
+   keep a company forever should never be forced to sell it because of
+   one bad year of loan payments.
+4. **Write your rules before you shop.** Your minimum return, your
+   sectors, your walk-away conditions — on paper, *before* the first
+   deal, because once you like a company you will be tempted to bend
+   every rule for it. That's not a character flaw, it's how all human
+   minds work; the written rule is the protection.
+5. **Test the seller early.** Within the first conversations, ask for
+   something concrete — real numbers, a meeting with their accountant. A
+   serious seller gives it. An ambivalent one stalls, and every month
+   you spend on a stalling owner is a month of your life gone.
+
+Start following all five today. Nothing below changes them.
+
+### Where the board disagrees
+
+Most of the board says your service-first plan is your best asset: work
+inside the company for a year as a paid back-office provider, build
+trust with an owner who would never sell to a stranger, see the real
+numbers from inside, and hold the right to buy at a pre-agreed price.
+Free education, income, and a head start no other buyer has.
+
+But one voice — the board's built-in devil's advocate — warns the
+opposite: **the owners who accept this odd arrangement may be exactly the
+ones you shouldn't buy from.** Think about it from the seller's side:
+most retiring owners want a clean sale — money in the bank, done. An
+owner who instead accepts a slow, complicated deal with an unproven
+30-something who wants to be paid partly in shares... may be the owner
+whose business no normal buyer would touch. The structure could quietly
+filter *out* the good businesses and filter *in* the desperate ones.
+
+The devil's advocate also made one point nobody could answer: **nobody
+added up your hours.** Searching for companies is a full-time job (the
+playbooks say so themselves). Actually delivering the back-office service
+is another. Running the holding is a third. That's three jobs, one
+person, for possibly years, on little or no salary.
+
+Who's right? Genuinely unknown — the honest advisors admitted their
+approval of the structure is educated guessing, since none of them ever
+saw it tried. The good news: it's cheaply testable, which leads to:
+
+### What to actually do
+
+**This week:**
+1. Adopt the five agreed rules above as written policy — put them in the
+   investment thesis.
+2. Do the money-and-hours audit: how many months can you live on little
+   income, and who does the service-delivery work when you're in
+   searching mode? Write the honest answer down.
+
+**The next 90 days — the real assignment:**
+3. Have real conversations with **ten** Belgian owners who are heading
+   toward exit. Not to buy — to *test*. Present the idea honestly: "I
+   run your back office, you pay me partly in a small stake, and I get
+   the right to buy the company later at a price we agree now."
+4. Use the negotiation book's approach: name their doubts *before they
+   do* ("you're probably thinking — who is this young guy, why would I
+   hand him shares..."), then listen. Aim for the moment they say
+   "that's right," not a quick yes.
+5. Score each conversation: did the owner (and their accountant) engage
+   seriously, or did it land as strange? **If fewer than 2 of 10 engage
+   seriously, the problem is the structure, not you** — come back to the
+   board before spending a year polishing it.
+
+**Decide-by (only you can, no advisor can help):**
+6. Will you personally run the first company you buy, or hire a manager?
+   All the first-timer playbooks assume you become the boss; your whole
+   model says you'll employ operators instead. Decide which story is
+   yours.
+7. Is service-first your *only* way in, or one way among several? Keeping
+   it exclusive is identity; loosening it is deal flow. Choose after the
+   ten conversations, with data.
+8. Pick your one or two sectors — the ones where you can actually judge
+   whether a business is good. Your thesis currently says "no sector
+   limits yet"; the value investor on this board would call that the
+   first thing to fix.
+9. Find one real, human Belgian M&A advisor or accountant. Every seat on
+   this board is foreign or historical; none can tell you how a Belgian
+   notaris, bank, or tax office treats your structure. That seat can't
+   be simulated — it has to be hired.
+
 ## Chair synthesis
 
 ### Majority view

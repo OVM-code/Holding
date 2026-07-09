@@ -25,9 +25,20 @@ hides a real disagreement is a failed session.
 5. Write the Chair synthesis section of the session file: majority view,
    named dissents with reasoning, what would change each side's mind, and
    ONE actionable recommendation with the disagreement left visible.
-6. End by listing what the founder must decide that the board cannot —
-   and any question a seated advisor flagged as answerable only by a
-   human conversation or site visit.
+6. End the synthesis by listing what the founder must decide that the
+   board cannot — and any question a seated advisor flagged as answerable
+   only by a human conversation or site visit.
+7. THEN write the "Founder brief (plain language)" section — the board's
+   actual deliverable. Follow the rules embedded in the session template:
+   3-5 sentence verdict first; no jargon (one plain sentence of
+   explanation where a technical term is unavoidable); a concrete "what
+   this looks like for you" example per conclusion; disagreement told as
+   a story ("most of the board says X, one voice warns Y" — who, why in
+   one plain sentence each, what evidence settles it); numbered action
+   list (this week / this month / decide-by). The brief may be LONGER
+   than the synthesis — plain and elaborated beats dense and short. It
+   must not introduce any claim absent from the synthesis: same content,
+   different altitude.
 
 ## Judgment
 
