@@ -53,6 +53,29 @@ founder's meeting agenda.
   newest customers are also old is aging out with its demand — the
   clearest single decay signal there is.
 
+## Questions about the systems (what the stack says)
+
+(Belgian SMEs mostly run Odoo, Exact Online, or a Microsoft-channel ERP like
+Business Central — or nothing but the external accountant's ledger. The stack
+is diagnostic evidence *and* an integration-cost line item. Per-system setup
+knowledge lives in the ERP Setup Assistant repo, `ovm-code/erp`.)
+
+- What do you run the business on — ERP, accounting package, or Excel and
+  the accountant? (No system of record at this size usually reads
+  operator-gap: the admin muscle atrophied with the owner. It also means
+  the back-office integration starts from zero — price that in.)
+- If Odoo: which edition (Enterprise/Community), which version, hosted
+  where, and who maintains the customizations? (An unmaintained, heavily
+  customized Community install several versions behind is a hidden
+  re-implementation cost and often a one-freelancer key-person risk.)
+- Are they sending structured Peppol e-invoices? (Mandatory for Belgian
+  B2B since January 2026 — a target that still isn't compliant a year in
+  tells you how the rest of the admin is run.)
+- Does the ERP actually match reality — is stock in the system the stock
+  on the floor, are margins per job visible? (A configured-but-ignored
+  system is operator-gap evidence; a system that never could answer these
+  is a cost-structure lever waiting to be pulled.)
+
 ## Questions to staff (with the owner absent)
 
 - What would you fix first if it were your company? (Staff always know.

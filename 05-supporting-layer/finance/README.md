@@ -59,7 +59,12 @@ uses them in accountant meetings.
 `[future integration]` — not built, just anticipated:
 
 - Belgian accounting platforms commonly used by SMEs: Yuki, Exact Online,
-  Odoo, Horus. An API pull would replace the manual export step above.
+  Odoo, Horus, Microsoft Dynamics 365 Business Central. An API pull would
+  replace the manual export step above. For opcos running a full ERP
+  (Odoo or Business Central), per-system setup knowledge — chart of
+  accounts, VAT/Peppol, valuation, banking (CODA/SEPA) — lives in the ERP
+  Setup Assistant repo (`ovm-code/erp`, `knowledge/erp/`); consult it
+  before interpreting or requesting exports from those systems.
 - Bank feed integration (e.g. via Ponto/Isabel in Belgium) for live cash
   position instead of periodic exports.
 

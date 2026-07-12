@@ -21,7 +21,12 @@ integrations, security exposure, renewal cost) — worth having from day one.
 
 1. Maintain `../templates/it-systems-inventory-template.csv`.
 2. On intake or when a new system is mentioned, add it with owner, purpose,
-   renewal date, and a rough data-sensitivity tag.
+   renewal date, and a rough data-sensitivity tag. For the ERP/accounting
+   system, always record vendor + version, and for Odoo also edition
+   (Enterprise/Community) and hosting (Online/Odoo.sh/on-premise) — these
+   determine what the system can do and what changing it costs. Per-system
+   setup knowledge for Odoo and Business Central lives in the ERP Setup
+   Assistant repo (`ovm-code/erp`, `knowledge/erp/`).
 3. Flag: systems with no clear owner, upcoming renewals, and any system
    handling sensitive data with no apparent access control mentioned.
 
